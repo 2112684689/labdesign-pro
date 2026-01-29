@@ -17,7 +17,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ activeCategory }) => {
       setError(null);
       
       try {
-        const url = new URL('http://localhost:3002/api/products');
+        const url = new URL('/api/products', window.location.origin);
         if (activeCategory && activeCategory !== '全部') {
           url.searchParams.append('category', activeCategory);
         }
