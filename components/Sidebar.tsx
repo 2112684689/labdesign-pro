@@ -22,7 +22,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeCategory, onCategoryChange }) =
       setError(null);
       
       try {
-        const response = await fetch('http://localhost:3002/api/categories');
+        const response = await fetch('/api/categories');
         if (!response.ok) {
           throw new Error('Failed to fetch categories');
         }
