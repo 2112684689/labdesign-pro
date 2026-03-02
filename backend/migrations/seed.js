@@ -7,7 +7,7 @@ const PRODUCTS = [
     id: '1',
     name: '中央实验台 XL-201',
     sku: '#2024-B01',
-    description: '采用12.7mm厚实芯理化板，  具有卓越的耐酸碱与抗冲击性能。全钢模块化结构，专为高强度科研环境打造。',
+    description: '采用12.7mm厚实芯理化板，具有卓越的耐酸碱与抗冲击性能。全钢模块化结构，专为高强度科研环境打造。',
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuD2ccN23MDb-JT3H20q07_OIQ9e5S8sigHL1T6-5rojzADJMKGQs-UTgljrUKsWhCt6oAJUOuzt1Cq3JcG0oPFNreUlJYMQhrYBOdXyFocbiBW8UgZ0FotBhTRfJ2S-b5CqyeNOVethndF7XMVBOsNgvkeuB5tJ6nb7CtyaAc7oaNBLY0eJNZZTGKIX_0teLtuaFFrtbRLYYp1EhamomMA6OQp4zGXzNbPa0_vlJmnVy1YvhlF-YXckzcSTH0ZbbHrzE2nLWeN7ZIw',
     tags: ['实芯理化板', '全钢模块'],
     category: '全钢实验台',
